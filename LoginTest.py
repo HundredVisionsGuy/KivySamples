@@ -1,3 +1,13 @@
+############################################
+#   LoginTest.py
+#   by Hundredvisions Guy
+#   from Kivy with Python tutorial Part 2 -
+#           Widgets and Labels
+#
+#   https://www.youtube.com/watch?v=cJtdb-vPxBo
+#
+############################################
+
 from kivy.app import App
 #kivy.require("1.8.0")
 
@@ -30,7 +40,7 @@ class LoginScreen(GridLayout):
         self.tfa = TextInput(multiline=False,
                                   password=True)
         self.add_widget(self.tfa)
-        
-        
+
+
 if __name__ == "__main__":
     SampleKivy().run()
